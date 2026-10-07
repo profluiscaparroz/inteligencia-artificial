@@ -24,6 +24,8 @@
 
 As células marcadas com 🎬 geram **animações** (use o botão ▶ do player) e as marcadas com 🎛️ possuem **controles interativos** (*sliders*).
 
+Logo após **cada resultado, gráfico ou animação** há uma seção **🔎 Como interpretar**, que explica o que aconteceu, **por que** acontece, como ler o gráfico ou a saída e qual é o conceito-chave envolvido.
+
 ---
 
 ## 🎯 O que é Machine Learning?
