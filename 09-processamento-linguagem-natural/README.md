@@ -52,7 +52,7 @@ Dois princípios atravessam toda a aula:
 | **Zellig Harris & J. R. Firth** | 1954/1957 | **Hipótese distribucional**: o significado de uma palavra é dado pelos contextos em que ela ocorre | Seção 4.6 (*embeddings*) |
 | **Noam Chomsky** | 1957 | *Syntactic Structures*: gramáticas gerativas e a hierarquia de linguagens formais | Parte 1; regex (Seção 2.6) |
 | **Vladimir Levenshtein** | 1965 | **Distância de edição** entre cadeias | Seção 2.9 (animação e corretor) |
-| **Joseph Weizenbaum** | 1966 | **ELIZA**, o primeiro *chatbot*, baseado em casamento de padrões | Seção 1.6 (mini-ELIZA) |
+| **Joseph Weizenbaum** | 1966 | **ELIZA**, o primeiro *chatbot*, baseado em casamento de padrões | Seções 1.6–1.8 (ELIZA simulada, conversa ao vivo e comparação com LLMs) |
 | **Terry Winograd** | 1968–1972 | **SHRDLU** e os esquemas de Winograd (ambiguidade referencial) | Seções 1.2 e 1.5 |
 | **Karen Spärck Jones** | 1972 | **IDF** (*inverse document frequency*): termos raros discriminam mais | Seções 3.3–3.5 |
 | **Gerard Salton** | 1970s | **Modelo vetorial** de recuperação de informação e o sistema SMART | Seção 3.5 (buscador) |
@@ -74,7 +74,7 @@ Dois princípios atravessam toda a aula:
 | Parte | Tema | Destaques práticos |
 |:-:|---|---|
 | 0 | Preparação | — |
-| 1 | O que é PLN, história, níveis de análise e tipos de ambiguidade | Mini-ELIZA com regras de regex |
+| 1 | O que é PLN, história, níveis de análise e tipos de ambiguidade | Mini-ELIZA com regex, **conversa ao vivo com a ELIZA** 💬 e comparação ELIZA × IAs generativas |
 | 2 | Pré-processamento | Pipeline interativo 🎛️; *stemming* RSLP × lematização; regex; Lei de Zipf com 540 mil palavras de Machado de Assis; BPE 🎬; distância de edição 🎬; corretor ortográfico |
 | 3 | Representação vetorial | Matriz BoW e similaridades; n-gramas; TF-IDF passo a passo; mini buscador 🎛️ |
 | 4 | Sentimentos e além | Léxico × Naive Bayes (e a armadilha da mudança de distribuição); precisão, revocação e F1; Naive Bayes calculado à mão; modelo de linguagem de bigramas 🎬; perplexidade e suavização; *embeddings* por coocorrência (PPMI + SVD); autoatenção de brinquedo; como funciona um LLM |
